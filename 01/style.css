@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+
+  font-family: helvetica;
+}
+.header{
+  background:url(bg.jpg);
+  background-size: cover;
+  height:100vh;
+}
+.logo img{
+  height: 40px;
+  padding:34px 80px;
+  display: flex;
+}
+.logo{
+
+  height: 0px
+}
+.item{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 76px;
+  font-size: 22px
+}
+.item:last-child{
+  margin-right: 0;
+}
+.item:hover{
+  color: gray;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+.photo img{
+  height: 350px;
+}
+.photo{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+.site-footer {
+  min-width: 550px;
+  background: url(04.jpg);
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
